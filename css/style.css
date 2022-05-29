@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../images/bg.png);
+    font-size: 16px;
+    font-family: 'arial', 'Hiragino Sans', 'Meiryo', sans-serif;
+    color: #333333;
+}
+
+header {
+    /* width: 1240px; */
+    margin: 0 auto 10px;
+    background-color: skyblue;
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0 16px;
+}
+h2 {
+    text-align: left;
+    font-size: 25px;
+    padding: 20px 0 16px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: left;
+    padding: 20px 0 16px;
+    font-weight: bold;
+}
+
+#education {
+    margin-top: 10px;
+    padding:  0% 3% 2%;
+    border: grey 1px solid;
+    border-radius: 15px;
+}
+
+#skill {
+    margin-top: 10px;
+    padding:  0% 3% 2%;
+    border: grey 1px solid;
+    border-radius: 15px;
+}
+
+#academic {
+    margin-top: 10px;
+    padding:  0% 3% 2%;
+    border: grey 1px solid;
+    border-radius: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul {
+    text-indent: 2rem;
+}
+
+
+main{
+    flex-basis: 920px;
+    background-color: #ffffff;
+    padding: 62px 72px 32px 72px;
+}
+
+footer {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 14px 10px 20px;
+}
