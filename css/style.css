@@ -56,6 +56,17 @@ h3 {
     border-radius: 15px;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 6px;
+    padding: 0 0 0 2rem;
+}
+td {
+    vertical-align:middle;
+    background-color: rgba(151, 244, 243, 0.16);
+    padding: 3px;
+}
+
 ul li {
     margin-bottom: 5px;
 }
