@@ -73,6 +73,8 @@ ul li {
 
 ul {
     text-indent: 2rem;
+    white-space:nowrap;
+    overflow-x: scroll;
 }
 
 
